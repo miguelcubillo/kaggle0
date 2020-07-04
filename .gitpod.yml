@@ -1,0 +1,5 @@
+image: conda/miniconda3
+
+tasks:
+  - init: python --version
+    command: python run.py
